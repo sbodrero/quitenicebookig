@@ -1,0 +1,112 @@
+#form_generator_errors {
+	display: none;
+}
+
+#form_generator {
+	float: right;
+	width: 35%;
+	min-height: 300px;
+}
+
+#form_generator div {
+	padding: 0 0 20px;
+}
+
+
+#form_generator #element_params {
+	display: none;
+	border: 1px solid #ddd;
+	padding: 18px;
+}
+
+#form_generator #element_multiple_choices_div {
+	display: none;
+	padding: 0;
+}
+
+#form_generator #element_multiple_choices_div input + label {
+	width: auto;
+	float: none;
+	display: inline;
+	font-weight: normal;
+}
+
+#form_generator #element_choices_div p,
+#form_generator #element_choices_div #element_multiple_choices_div {
+	padding-left: 29%;
+}
+
+#form_generator div input,
+#form_generator div textarea {
+	width: 70%;
+}
+
+#form_generator div input[type=checkbox] {
+	width: 20px;
+}
+
+#form_generator div label {
+	width: 29%;
+	float: left;
+	display: block;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+#form_generator div input#generated {
+	background: #dbdbdb;
+	font-family: monospace;
+	width: 100%;
+}
+
+textarea#quitenicebooking\[reservation_form\] {
+	float: left;
+	width: 64%;
+	min-height: 300px;
+}
+
+.instructions {
+	padding-right: 35%;
+	line-height: 1.5;
+}
+
+@media only screen and (max-width: 781px) {
+	#form_generator {
+		float: none;
+		width: 100%;
+		min-height: 0;
+	}
+
+	#form_generator div input,
+	#form_generator div textarea {
+		display: inline;
+	}
+
+	.instructions {
+		padding-right: 0;
+		line-height: 1.5;
+	}
+
+	textarea#quitenicebooking\[reservation_form\] {
+		float: none;
+		width: 100%;
+		min-height: 300px;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 1160px) {
+	#form_generator #element_choices_div p,
+	#form_generator #element_choices_div #element_multiple_choices_div {
+		padding-left: 0;
+	}
+
+	#form_generator div input,
+	#form_generator div textarea {
+		width: 100%;
+	}
+
+	#form_generator div label {
+		width: 100%;
+	}
+}

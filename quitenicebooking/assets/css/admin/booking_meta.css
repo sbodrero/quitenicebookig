@@ -1,0 +1,56 @@
+.full-width {
+	width: 100%;
+}
+
+select {
+	font-size: 12px;
+	color: #555;
+}
+
+.room {
+	border: 1px solid #dfdfdf;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	margin: 15px;
+}
+
+.room h3 {
+	background: #f3f3f3;
+	font-size: 12px;
+}
+
+input[disabled], select[disabled] {
+	background-color: #dfd;
+}
+
+.ajax_messages img {
+	margin: 0 8px;
+}
+
+#edit-slug-box {
+	display: none;
+}
+
+/* admin post list columns */
+
+.button.icon-action {
+	padding: 0 2px;
+}
+
+.column-status {
+	width: 6%;
+}
+
+.column-payment {
+	width: 15%;
+}
+
+.column-action {
+	width: 8%;
+}
+
+.nowrap {
+	white-space: nowrap;
+}

@@ -1,0 +1,21 @@
+.full-width {
+	width: 100%;
+}
+
+
+.empty-label {
+	display: block;
+	height: 1px;
+}
+
+.room-row {
+	padding: 5px 0;
+}
+
+.room-row input[type=checkbox] {
+	margin: 0 5px 0 0;
+}
+
+#edit-slug-box {
+	display: none;
+}

@@ -1,0 +1,28 @@
+.field-padding-below-noindent {
+	padding: 0 18px 18px 0;
+}
+
+.full-width {
+	width: 100%;
+}
+
+
+.empty-label {
+	display: block;
+	height: 1px;
+}
+
+#edit-slug-box {
+	display: none;
+}
+
+#discount_details_separator,
+#discount_flat_div,
+#discount_percentage_div,
+#discount_duration_div {
+	display: none;
+}
+
+input.small-text {
+	padding: 3px 5px;
+}
